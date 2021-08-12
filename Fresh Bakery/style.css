@@ -1,0 +1,52 @@
+:root{
+    --dark: #495867;
+    --light: #f8f7ff;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.logo-block{
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+}
+.logo-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.light-text{
+    font-weight: lighter;
+}
+.image-container{
+    background-color: yellow;
+    background-image: url("https://bityl.co/8D4i");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+h1{
+    font-weight: bold;
+}
+.text-container{
+    background-color: var(--dark);
+    color: var(--light);
+}
+.btn-cst{
+    background-color: var(--light);
+    color: var(--dark);
+    border-radius: 0;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn-cst:hover{
+    background-color: var(--dark);
+    color: var(--light);
+    transform: scale(1.1)
+}
+.active{
+    font-weight: bold;
+    background-color: var(--dark);
+    color: var(--light);
+}
