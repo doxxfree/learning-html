@@ -30,6 +30,9 @@ body{
 h1{
     font-weight: bold;
 }
+.spacer{
+    height: 52px
+}
 .text-container{
     background-color: var(--dark);
     color: var(--light);
@@ -49,4 +52,21 @@ h1{
     font-weight: bold;
     background-color: var(--dark);
     color: var(--light);
+}
+.services-block{
+    text-align: center;
+    color: var(--dark);
+}
+.services-block > .row > .col-md-4 > h3{
+    font-size: 32px;
+    margin
+}
+.service-img{
+    border-radius: 100%;
+    margin-bottom: 22px;
+    box-shadow: lightgrey 0px 10px 10px;
+}
+.service-heading{
+    font-size: 64px;
+    font-weight: medium;
 }
